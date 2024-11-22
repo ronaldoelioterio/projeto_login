@@ -2,8 +2,65 @@
 
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
     background-color: rgb(133, 134, 132);     
 }
+
+section {
+    background-color: white;
+    position: absolute;
+    top: 15%;
+    left: 23%;
+    width: 60vw;
+    height: 75vh;
+    border-radius: 10px;
+}
+
+div#imagem {
+    display: block;
+    background: #000 url(../imagens/black_white.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px 10px 0px 0px;
+    height: 225px;
+}
+
+#formulario > h1 {
+    text-align: center;
+}
+
+#formulario > p {
+    text-align: justify;
+    font-size: 0.8em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div#formulario {
+    padding: 15px;
+}
+
+.campo {
+     margin: 3px;
+}
+
+.botao {
+    padding: 3px;
+}
+
+input#ilogin {
+    padding: 7px;
+    border-style: double;
+    border-color: green;
+}
+
+input#isen {
+    padding: 7px;
+    border-style: double;
+    border-color: green;
+}
+
