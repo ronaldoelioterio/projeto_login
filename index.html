@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    
+    <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
-    <div id="login">
-        <form action="cadastro.php" method="post">
-            <p>
-                <label for="iem">Email: </label>
-                <input type="email" name="iem" id="email">
-            </p>
-            <p>
-                <label for="isen">Senha: </label>
-                <input type="password" name="isen" id="senha" maxlength="15" minlength="8">
-            </p>
-            <input type="button" value="Entrar">
-            <input type="button" value="Esqueci a senha">
-        </form>
-    </div>
+    <section>
+        <div id="imagem">
+
+        </div>
+        <div id="formulario">
+            <h1>Login</h1>
+            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+            <form action="login.php" method="post">
+                <div class="campo">
+                    <input type="email" name="login" id="ilogin" placeholder="seu email" required>
+                </div>
+                <div class="campo">
+                    <input type="password" name="senha" id="isen" placeholder="sua senha" minlength="8" maxlength="20" required >
+                </div>
+            </form>
+        </div>
+    </section>
 </body>
 </html>
