@@ -15,7 +15,7 @@ section {
     position: absolute;
     top: 15%;
     left: 23%;
-    width: 60vw;
+    width: 65vw;
     height: 75vh;
     border-radius: 10px;
 }
@@ -45,7 +45,7 @@ div#formulario {
 }
 
 .campo {
-     margin: 3px;
+    padding: 3px;
 }
 
 .botao {
